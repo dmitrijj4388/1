@@ -21,5 +21,6 @@ string[] ChoiseFromArray(string[] arr, int n) //Функция отбирает 
 
 Console.Clear();
 string[] array = { "Moskva", "SPb", "21", ":-)!","2023" };
-
+string[] result = ChoiseFromArray(array, 3);
+Console.WriteLine(String.Join("\t " ,result)); 
 
